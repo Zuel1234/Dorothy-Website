@@ -192,7 +192,7 @@ buy.addEventListener("click", (e) => {
   
  else {
   const itemCount = cartData.length === 1 ? "item" : "items"
-  window.open(`https://wa.me/+233548879613?text=DOROTHY COUTURE %0APlease kindly send us screenshot of the ${cartData.length} ${itemCount} in your cart page to process delivery`,"_blank")
+  window.open(`https://wa.me/+233548879613?text=DOROTHY %0ACOUTURE %0APlease kindly send us screenshot of the ${cartData.length} ${itemCount} in your cart page to process delivery`,"_blank")
  }
   
 })
