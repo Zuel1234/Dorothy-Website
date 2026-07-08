@@ -220,6 +220,12 @@ call.href = "tel:+233548879613"
 
 info.textContent = "Your Cart is Empty"
 
+const logoImage = document.querySelector("header .logo img")
+logoImage.addEventListener("click",() => {
+ window.open('index.html')
+})
+ 
+
 
 
 
