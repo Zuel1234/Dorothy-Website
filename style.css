@@ -576,6 +576,7 @@ main .box_3 {
 
 .product_price {
   font-weight: 600;
+  margin-left: 5px;
 }
 
 .quantity {
