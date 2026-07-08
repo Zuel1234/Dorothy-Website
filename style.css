@@ -561,6 +561,7 @@ main .box_3 {
   color: #020912;
   display: grid;
   place-items: center;
+  margin-left: 10px;
 }
 
 .delete {
@@ -576,7 +577,7 @@ main .box_3 {
 
 .product_price {
   font-weight: 600;
-  margin-left: 5px;
+
 }
 
 .quantity {
