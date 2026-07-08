@@ -192,7 +192,7 @@ buy.addEventListener("click", (e) => {
   
  else {
   const itemCount = cartData.length === 1 ? "item" : "items"
-  window.open(`https://wa.me/+2335548879613?text= DOROTHY COUTURE %0A Please kindly send us screenshot 
+  window.open(`https://wa.me/+233548879613?text= DOROTHY COUTURE %0A Please kindly send us screenshot 
     of the ${cartData.length} ${itemCount} in your cart page to process delivery`,"_blank")
  }
   
@@ -210,14 +210,14 @@ const whatsapp = document.querySelector(".whatsapp")
 
 whatsapp.addEventListener("click", () => {
 
-   window.open(`https://wa.me/+2335548879613?text= DOROTHY COUTURE %0A Please I want more info on your services`,"_blank")
+   window.open(`https://wa.me/+233548879613?text= DOROTHY COUTURE %0A Please I want more info on your services`,"_blank")
 })
 
 
 const call = document.querySelector(".call")
 console.log(call);
 
-call.href = "tel:+2335548879613"
+call.href = "tel:+233548879613"
 
 
 
