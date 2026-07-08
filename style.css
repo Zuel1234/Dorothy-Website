@@ -719,13 +719,12 @@ main .box_3 {
 }
 
 .mobile_menu .about {
-  padding: 20px 5%;
+  padding: 20px 5% 50px;
 
   & ul li {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    padding-bottom: 20px;
     font-size: 18px;
       
   }
