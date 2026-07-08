@@ -567,7 +567,7 @@ main .box_3 {
   align-self: center;
   font-size: 20px;
   color: #020912;
-  margin-right: 15px;
+  margin-right: 5px;
 
   & i {
     cursor: pointer;
