@@ -181,11 +181,20 @@ const buy = document.querySelector(".buy_now button");
 
 
 buy.addEventListener("click", (e) => {
-
   
   const cartData = JSON.parse(localStorage.getItem("data"))
-  window.open(`https://wa.me/559428086?text= DOROTHY COUTURE %0A Please kindly send us screenshot 
-    of the ${cartData.length} items in your cart page to process delivery`,"_blank")
+
+ if(cartData.length === 0){
+  window.alert("Cart is empty please add one or more item to proceed to checkout")
+  return
+  
+ }
+  
+ else {
+  const itemCount = cartData.length === 1 ? "item" : "items"
+  window.open(`https://wa.me/5548879613?text= DOROTHY COUTURE %0A Please kindly send us screenshot 
+    of the ${cartData.length} ${itemCount} in your cart page to process delivery`,"_blank")
+ }
   
 })
 
@@ -201,7 +210,7 @@ const whatsapp = document.querySelector(".whatsapp")
 
 whatsapp.addEventListener("click", () => {
 
-   window.open(`https://wa.me/559428086?text= DOROTHY COUTURE %0A Please I want more info on your services`,"_blank")
+   window.open(`https://wa.me/5548879613?text= DOROTHY COUTURE %0A Please I want more info on your services`,"_blank")
 })
 
 
