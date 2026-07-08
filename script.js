@@ -218,6 +218,7 @@ console.log(call);
 
 call.href = "tel:+233548879613"
 
+info.textContent = "Your Cart is Empty"
 
 
 
